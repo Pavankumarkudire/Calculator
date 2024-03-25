@@ -1,0 +1,30 @@
+
+
+.Calculator{
+    width: 15rem;
+    margin: 0 auto;
+    border: 3px solid #443b9e;
+    box-shadow: 0px 0px 3px 1px #443b9e;
+
+}
+
+#test{
+    background-color: aliceblue;
+    pointer-events: none;
+    height: 40px;
+    width: 97%;
+}
+.Button{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    border: 2px solid blue;
+}
+.Button button{
+    background-color: #443b9e;
+    height: 50px;
+    color: aliceblue;
+
+}
+.Button button:hover{
+    background-color: #1b1553;
+}
